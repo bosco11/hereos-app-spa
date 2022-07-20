@@ -4,7 +4,7 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   const onLogout = () => {
-    navigate('/login', { replace: true });
+    navigate("/login", { replace: true });
   };
 
   return (
@@ -28,18 +28,13 @@ export const Navbar = () => {
           >
             DC
           </NavLink>
-          {/*<NavLink
-            className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
-            to="/hero"
-          >
-            Hero
-          </NavLink>
+
           <NavLink
             className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
             to="/search"
           >
             Search
-          </NavLink>*/}
+          </NavLink>
         </div>
       </div>
 
